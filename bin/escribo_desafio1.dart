@@ -1,5 +1,6 @@
 void main(List<String> arguments) {
-  calculoDesafio(10);
+  print(calculoDesafio(10));
+  print(calculoDesafio(11));
 }
 
 int calculoDesafio(int numero) {
@@ -10,8 +11,6 @@ int calculoDesafio(int numero) {
       sum += i;
     }
   }
-
-  print(sum);
 
   return sum;
 }
